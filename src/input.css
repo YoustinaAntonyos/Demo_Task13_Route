@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@utility container{
+    @media (width >= 96rem /* 1536px */) {
+        max-width: 80rem /* 1536px */;
+    }
+    margin-inline: auto;
+}
+.grid-blue{
+    background-image: linear-gradient(to right,#5239F7,#9615FA);
+}
+*{
+    font-family: Inter;
+}
+.bg-card{
+    background-color: #FBFCFD;
+}
+.w-four{
+    width: 400px;
+}
